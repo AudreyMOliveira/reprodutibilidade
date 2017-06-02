@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
-#-----------------------------------------------------------------------------
-# Funcao DadosHeart baseada na funcao DadosHeart.m escrita por Renato Dourado Maia em Matlab
-#-----------------------------------------------------------------------------
+﻿# -*- coding: utf-8 -*-
+
 import numpy as np
 
 def DadosHeart():
