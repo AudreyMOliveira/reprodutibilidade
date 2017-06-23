@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 class perceptron:
     def __init__(self,M,narq_w = 'Pesos.txt',narq_e = 'ErrosEpocas.txt'):
         
-        self.num_epocas =5000
+        self.num_epocas =1000
         self.tx_apr = 0.05
         self.Tolerancia = 0.00
         
@@ -17,6 +17,7 @@ class perceptron:
         self.aprende = False        
         self.N = M.shape[-1]
         self.vet_Erros = []
+        self.variavelPlot= []
         
         self.narq_w = narq_w
         self.narq_e = narq_e
@@ -104,7 +105,8 @@ class perceptron:
         
         #Gera arquivos com os valores de pesos e erros quadraticos por num_epocas
         np.savetxt(self.narq_w,Matriz_w, fmt='%10.4f')
-        np.savetxt(self.narq_e,self.vet_Erros, fmt='%d')        
+        np.savetxt(self.narq_e,self.vet_Erros, fmt='%d')      
+        self.variavelPlot = (self.vet_Erros/10) 
         
         #Print vetor de pesos         
         print(' Saidas:')
@@ -142,7 +144,7 @@ class perceptron:
         #Gera grafico de erros por num_epocas de treino  
         
         plt.figure()
-        plt.plot(np.arange(len(self.vet_Erros)),self.vet_Erros, 'bo')
+        plt.plot(np.arange(len(self.variavelPlot)), self.variavelPlot, 'bo')
         plt.grid('on')
         plt.title('Graph of Quadratic Errors x Season')        
         plt.show()
