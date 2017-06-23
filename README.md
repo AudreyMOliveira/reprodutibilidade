@@ -8,7 +8,6 @@
 
 <b>DOWNLOADS REQUERIDOS:</b>
 
-- Arquivos do projeto contidos na pasta perceptron (https://github.com/AudreyMOliveira/reprodutibilidade/tree/master/dev/perceptron)
 - Jupyter Notebook (Compatível com Python 2.7): http://jupyter.org/install.html
 
 <b>ESTRUTURA DE CLASSES:</b>
@@ -18,10 +17,10 @@
 - Problema2  -> Onde é realizado a validação e apresentado a % de erros 
 
 <b>TUTORIAL:</b>
-     1- Fazer a instalação padrão do python 2.7 xy
-     2- Instalar o Anaconda
-     3 -Fazer download do projeto
-     4- Executar o Paper:
+  - Fazer a instalação padrão do python 2.7 xy
+  - Instalar o Anaconda
+  - Fazer download do projeto
+  - Executar o Paper:
 
 <b>PARÂMETROS QUE PODEM SER ALTERADOS NO PROBLEMA:</b>
 
