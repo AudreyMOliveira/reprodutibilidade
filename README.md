@@ -32,5 +32,5 @@
 
 <b>DISTRIBUIÇÃO:</b>
 
-- Maquina Virtual(MEGA):
+- Maquina Virtual(MEGA): https://mega.nz/#!JiBglbLK!PwnG6AuEoYIVvqaIVErKKSu3KFKHIuz2IDURm1r5bBs
 - Repositório Docker: https://hub.docker.com/r/audoliveira/reprodutibilidade/
