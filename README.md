@@ -18,10 +18,11 @@
 - Problema2  -> Onde é realizado a validação e apresentado a % de erros 
 
 <b>TUTORIAL:</b>
-1- Fazer a instalação padrão do python 2.7 xy
-2- Instalar o Anaconda
-3 -Fazer download do projeto
-4- Executar o Paper:
+     1- Fazer a instalação padrão do python 2.7 xy
+     2- Instalar o Anaconda
+     3 -Fazer download do projeto
+     4- Executar o Paper:
+
 <b>PARÂMETROS QUE PODEM SER ALTERADOS NO PROBLEMA:</b>
 
 1- No perceptron.py pode ser alterado os seguintes parâmetros (alterar valores):
