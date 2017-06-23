@@ -2,40 +2,26 @@
 
 <b>Estrutura Pastas GITHUB</b>
 - data: entrada de dados 
-- deliver: versões antigas do projeto
+- deliver: última versão do projeto  e o paper gerado
 - figures: imagens geradas no teste
-- dev: contem a pasta (perceptron - código fonte) e o paper gerado
+- dev: arquivos antigos
 
 <b>DOWNLOADS REQUERIDOS:</b>
-- Python 2.7 xy (http://python-xy.github.io/downloads.html)
-- Arquivos do projeto contidos na pasta perceptron (https://github.com/AudreyMOliveira/reprodutibilidade/tree/master/dev/perceptron)
 
-<b>ESTRUTURA DE ARQUIVOS PASTA DEV:</b>
-- DadosHeart.py -> lê o arquivo e separa as classes para treino e validação
-- Heart.txt -> dados usados no problema.
-- Perceptron.py -> Onde é implementado a rede neural e é plotado o gráfico
-- Problema2.py -> Onde é realizado a validação e apresentado a % de erros 
+- Arquivos do projeto contidos na pasta perceptron (https://github.com/AudreyMOliveira/reprodutibilidade/tree/master/dev/perceptron)
+- Jupyter Notebook (Compatível com Python 2.7): http://jupyter.org/install.html
+
+<b>ESTRUTURA DE CLASSES:</b>
+- DadosHeart -> lê o arquivo e separa as classes para treino e validação
+- Heart.txt  -> dados usados no problema.
+- Perceptron -> Onde é implementado a rede neural e é plotado o gráfico
+- Problema2  -> Onde é realizado a validação e apresentado a % de erros 
 
 <b>TUTORIAL:</b>
 1- Fazer a instalação padrão do python 2.7 xy
-
-2- Abrir o python com as seguintes configurações:
-	2.1 - Options: none(IDE)
-	2.2 - Applications: IPython QT Console
-	2.3 - Interective Consoles: IPython (sh)
-
-3- Clicar em run spyder
-
-4- Ir em file -> newProject 
-selecionar os arquivos baixados da pasta PERCEPTRON(1º Passo)
-
-5- Clicar sobre o dadosHeart.py e clicar no ícone de executar.
-   
-(verifique que na pasta do projeto, foi inserido o as matrizes, os erros    épocas e  foi gerado o gráfico de validação de erros.)
-
-6- No console do python verificar o percentual de validação
-
-
+2- Instalar o Anaconda
+3 -Fazer download do projeto
+4- Executar o Paper:
 <b>PARÂMETROS QUE PODEM SER ALTERADOS NO PROBLEMA:</b>
 
 1- No perceptron.py pode ser alterado os seguintes parâmetros (alterar valores):
@@ -43,3 +29,8 @@ selecionar os arquivos baixados da pasta PERCEPTRON(1º Passo)
      self.num_epocas = xxxx
      self.tx_apr = xxxx
      self.Tolerancia = xxxx
+
+<b>DISTRIBUIÇÃO:</b>
+
+- Maquina Virtual(MEGA):
+- Repositório Docker: https://hub.docker.com/r/audoliveira/reprodutibilidade/
