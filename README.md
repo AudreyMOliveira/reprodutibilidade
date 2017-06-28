@@ -29,6 +29,9 @@
      self.num_epocas = xxxx
      self.tx_apr = xxxx
      self.Tolerancia = xxxx
+ **Os resultados apresentados podem variar de acordo com os pesos.Neste projeto, os pesos são aletórios. 
+ Portanto pode haver resultados diferentes.
+ 
 
 <b>DISTRIBUIÇÃO:</b>
 
